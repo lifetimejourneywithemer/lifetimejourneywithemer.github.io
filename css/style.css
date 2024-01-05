@@ -1,0 +1,95 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.font-gv {
+  font-family: 'Great Vibes', cursive;
+}
+.font-rbt {
+  font-family: 'Roboto', sans-serif;
+}
+.w-100 {
+  font-weight: 100;
+}
+.w-300 {
+  font-weight: 300;
+}
+.w-400 {
+  font-weight: 400;
+}
+.names {
+  font-size: 5em;
+  text-shadow: 1px 1px 5px #7aadb2;
+}
+#name-mobile {
+  display:none;
+}
+#name-mobile h1, h4 {
+  line-height: 1px;
+}
+#name-mobile h1 {
+  padding-top:20px;
+  padding-bottom:5px;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 70vh;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+.section {
+  margin-top: 70px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 70%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #name-mobile {
+    display:block;
+  }
+  #name-device {
+    display:none;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
