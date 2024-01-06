@@ -3,8 +3,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Lorem Ipsum Dolor</title>
-
+    <title>You are invited to the wedding of Journey and Emer!</title>
+    <meta property="og:title" content="You are invited to the wedding of Journey and Emer!">
+    <meta property="og:description" content="In God's perfect time. Your presence will complete our happiness.">
+    <meta property="og:image" content="https://lifetimejourneywithemer.github.io/img/og-image.jpg">
   <!-- CSS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,10 +31,10 @@
   </nav> -->
 
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+    <div class="section no-pad-bot banner">
       <div class="container">
         <br><br>
-        <h5 class="center light w-300 font-rbt">TOGETHER WITH THEIR FAMILIES</h5>
+        <h6 class="center light w-300 font-rbt">TOGETHER WITH THEIR FAMILIES</h6>
         <div class="row center">
           <h1 id="name-device" class="col names s12 light font-gv w-400">Journey and Emer</h1>
           <div id="name-mobile">
@@ -42,18 +44,54 @@
           </div>
         </div>
         <div class="row center">
-            <h6 style="text-transform: uppercase;" class="font-rbt w-400">Request the pleasure of your company to celebrate their marriage</h6>
+            <h6 style="text-transform: uppercase;" class="font-rbt w-300 shadow-bl">Request the pleasure of your company to celebrate their marriage</h6>
+        </div>
+        <div class="row center banner-details">
+            <p style="font-size:18px;">FRIDAY</p>
+            <p style="font-size:40px;">FEB | 09 | 2024</p>
+            <p style="font-size:18px;line-height: 1.5rem;">THREE O'CLOCK IN THE AFTERNOON</p>
+            <p style="text-transform: uppercase;line-height: 1.5rem; letter-spacing:1px" class="font-rbt w-300 shadow-bl">
+                Punta De Uian Beach Resort 
+                <br/>
+                San Marcelino-San Antonio-San Narciso Rd, San Antonio, 2206 Zambales, Philippines
+            </p>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a id="download-button" class="btn-large waves-effect waves-light btn modal-trigger teal lighten-2" style="letter-spacing:5px;font-weight:500" href="#modal1">RSVP</a>
         </div>
+        <!-- Modal Structure -->
+        
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="img/img-2.jpg" alt="image 1"></div>
+    <div class="parallax"><img id="firstImage" src="img/img-2.jpg" alt="image 1"></div>
   </div>
-
+    <form id="rsvp">
+        <div id="modal1" class="modal">
+            <div class="modal-content" style="color:#000">
+                <h6 class="center" style="font-size:25px;color: #595959;letter-spacing:1px;">RSVP for our Wedding</h6>
+                <p class="center">We can't wait to celebrate with you and your presence is important to us! We reserved 1 seat for you. The favor of your response is requested on or before February 09, 2024
+                </p>
+                <div class="mt-20">
+                    <div class="input-field">
+                        <input type="text" placeholder="Input your first name and last name" id="name" name="entry.713365279" class="validate" required="">
+                        <label for="name" class="active">Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="entry.1713576090" id="contact_num" placeholder="Input your contact number" class="validate" required="">
+                        <label for="number" class="active">Contact Number</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" id="cancel" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+                <button type="submit" class="btn waves-effect waves-light teal lighten-2">
+                    <i class="material-icons right">send</i>&nbsp;&nbsp; Send
+                </button>
+            </div>
+        </div>
+    </form>
 
   <div class="container">
     <div class="section">
@@ -62,48 +100,117 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <h2 class="center grey-text"><i class="material-icons">date_range</i></h2>
+            <h5 class="center">Date and Time</h5>
+            <center>
+            <p class="light">February 09, 2024 03:00 PM
+                <br/>
+                Friday
+            </p>
+            <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Journey+and+Emer+Wedding&dates=20240209T070000Z/20240209T130000Z&details=Wedding+at+Punta+de+Uian+Beach+Resort,+San+Marcelino-San+Antonio-San+Narciso+Rd,+San+Antonio,+2206+Zambales,+Philippines,+Manila&location=Punta+de+Uian+Beach+Resort,+San+Marcelino-San+Antonio-San+Narciso+Rd,+San+Antonio,+2206+Zambales,+Philippines,+Manila" target="_blank">
+                Add to Calendar
+            </a>
+        </center>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <h2 class="center grey-text"><i class="material-icons">add_location</i></h2>
+            <h5 class="center">Location</h5>
+            <center>
+            <p class="light">Punta De Uian Beach Resort
+                <br/>
+                San Marcelino-San Antonio-San Narciso Rd, San Antonio, 2206 Zambales, Philippines
+            </p>
+            <a target="_blank" href="https://www.google.com/maps/dir//Punta+de+Uian+Beach+Resort,+San+Marcelino-San+Antonio-San+Narciso+Rd,+San+Antonio,+2206+Zambales,+Philippines/@14.9347397,120.0547581,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3395d0c8f9f61c43:0x860f2a689cf43a4d!2m2!1d120.0573367!2d14.9347349!3e0?entry=ttu">Get Directions</a>
+            </center>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <h2 class="center grey-text"><i class="material-icons">contacts</i></h2>
+            <h5 class="center">Contact</h5>
+            <center>
+            <p class="light">Need help? or info?
+                <br/>
+                Journey - 0912345678901
+                <br/>
+                Emer - 0912345678901
+            </p>
+            </center>
           </div>
         </div>
       </div>
 
     </div>
   </div>
+  <div class="gallery">
+    <div class="container">
+        <div style="margin-top: 50px;margin-bottom:20px;">
+            <h6 class="center blue-grey-text w-300 font-rbt">HERE ARE SOME OF OUR PRENUP PHOTOS</h6>
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/img-1.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/img-3.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/img-4.jpg">
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/img-7.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/img-5.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/img-6.jpg">
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+  </div>
+  
 
-
-  <div class="parallax-container valign-wrapper">
+  <!-- <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
+        
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+    <div class="parallax"><img src="img/img-8.jpg" alt="Unsplashed background img 2"></div>
+  </div> -->
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="section">
 
       <div class="row">
@@ -115,10 +222,10 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
 
-  <div class="parallax-container valign-wrapper">
+  <!-- <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -127,9 +234,9 @@
       </div>
     </div>
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
+  </div> -->
 
-  <footer class="page-footer teal">
+  <!-- <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -163,13 +270,74 @@
       Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.modal').modal();
+        // form submission
+        $('#rsvp').submit(function(e){
+          e.preventDefault();
 
+          var formData = $(this).serialize();
+
+          var name = $('#name').val();
+          var contact_num = $('#contact_num').val();
+
+          $.ajax({
+              url:'https://docs.google.com/forms/u/2/d/e/1FAIpQLSfxx8wBeVsty7l5xRmmf679w_EN_vnbN6MiY6SU_19VW7EMCQ/formResponse',
+              type:'POST',
+              data: formData,
+              data: {
+                  "entry.713365279": name,
+                  "entry.1713576090": contact_num,
+              },
+              dataType: 'xml',
+              statusCode: {
+                  0:function() {
+                      M.toast({html: "We are overjoyed that you will be joining us on our special day! Your presence means the world to us and we can't wait to celebrate our wedding with you. Thank you for taking the time to RSVP and for sharing in our happiness. We look forward to creating unforgettable memories with you on our wedding day.", classes: 'green'});
+                      // $("#pre-loader").hide()
+                      // $('#content').removeClass('less-opacity');
+                      $('#name').val("");
+                      $('#contact_num').val("");
+                      $('#cancel')[0].click()
+                  },
+                  200:function() {
+                      M.toast({html: "Oops! Something went wrong. Please try again", classes: 'red'});
+                      $('#content').removeClass('less-opacity');
+                  }
+              }
+             
+          });
+          $(this).trigger('reset');
+      });
+    });
+    // Function to change the image source
+    function changeImageSource() {
+      var screenWidth = window.innerWidth;
+
+      // Conditionally set the image source based on screen width
+      if (screenWidth < 600) {
+        document.getElementById("firstImage").src = "img/img-2-mobile.jpg";
+      } else if (screenWidth >= 600 && screenWidth < 900) {
+        document.getElementById("firstImage").src = "img/img-2.jpg";
+      } else {
+        document.getElementById("firstImage").src = "img/img-2.jpg";
+      }
+    }
+
+    // Call the function on page load
+    changeImageSource();
+    
+
+    // Attach the function to the window resize event
+    window.addEventListener('resize', changeImageSource);
+
+  </script>
   </body>
 </html>

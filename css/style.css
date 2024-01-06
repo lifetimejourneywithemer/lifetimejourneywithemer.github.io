@@ -22,7 +22,7 @@
 }
 .names {
   font-size: 5em;
-  text-shadow: 1px 1px 5px #7aadb2;
+  text-shadow: 1px 1px 5px #648a8d;
 }
 #name-mobile {
   display:none;
@@ -33,6 +33,17 @@
 #name-mobile h1 {
   padding-top:20px;
   padding-bottom:5px;
+}
+.shadow-bl {
+  text-shadow: 1px 1px 5px #648a8d;
+}
+.banner-details {
+  letter-spacing: 5px;
+  color:#fff;
+  text-shadow: 1px 1px 5px #648a8d;
+}
+.banner-details p {
+  line-height: 0px;
 }
 nav ul a,
 nav .brand-logo {
@@ -50,20 +61,17 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: 70vh;
+  height: 100vh;
   color: rgba(255,255,255,.9);
 }
 .parallax-container .section {
   width: 100%;
 }
-.section {
-  margin-top: 70px;
-}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 70%;
+
   }
   #index-banner .section {
     top: 10%;
@@ -80,7 +88,9 @@ p {
   #index-banner .section {
     top: 0;
   }
-
+  .banner {
+    margin-top:50px;
+  }
 }
 
 .icon-block {
@@ -92,4 +102,24 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.modal {
+  opacity: .8!important;
+}
+.banner {
+  margin-top:100px;
+}
+.gallery {
+  height: 100%;
+  background-image: url('../img/img-8.jpg');
+  background-size: cover;
+  padding:0;
+  margin:0;
+  background-position: center;
+  display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
 }
