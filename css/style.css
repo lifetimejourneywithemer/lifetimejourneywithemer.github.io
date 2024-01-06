@@ -123,3 +123,8 @@ footer.page-footer {
       color: white;
       text-align: center;
 }
+.hashtag {
+  font-size: 35px;
+  text-shadow: 1px 1px 5px #648a8d;
+  margin-top: 15px;
+}
